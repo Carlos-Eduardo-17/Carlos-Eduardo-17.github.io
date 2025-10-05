@@ -84,28 +84,9 @@
 
                 <div class="social-links">
                   
-
-                  <a href="mailto:carlos.1710.ml@gmail.com"><i class="bi bi-envelope"></i></a>
-
-
-                  <a id="mailLink" href="#" aria-label="Enviar correo">
-<i class="bi bi-envelope"></i>
-</a>
- 
-<script>
-  // correo codificado en base64: "carlos.1710.ml@gmail.com"
-  const encoded = "Y2FybG9zLjE3MTAubWxAZ21haWwuY29t";
-  document.getElementById("mailLink").addEventListener("click", function (e) {
-    console.log("encode", e)
-    e.preventDefault();
-    const email = atob(encoded); // decodifica Base64
-    console.log("email",email)
-    window.location.href = "mailto:" + email;
-  });
-</script>
-
-
-                  <a href="https://mail.google.com/mail/?view=cm&to=carlos.1710.ml@gmail.com&su=Contacto%20desde%20CV%20–%20Carlos%20Medina&body=Hola,%20me%20interesa%20ponerme%20en%20contacto%20contigo.%20Quisiera%20discutir%20posibles%20oportunidades%20o%20colaboraciones."><i class="bi bi-envelope"></i></a>
+                  <!--<a href="mailto:carlos.1710.ml@gmail.com"><i class="bi bi-envelope"></i></a>-->
+                  <a id="mailLink" href="#" aria-label="Enviar correo"><i class="bi bi-envelope"></i></a>
+                  <!--<a href="https://mail.google.com/mail/?view=cm&to=carlos.1710.ml@gmail.com&su=Contacto%20desde%20CV%20–%20Carlos%20Medina&body=Hola,%20me%20interesa%20ponerme%20en%20contacto%20contigo.%20Quisiera%20discutir%20posibles%20oportunidades%20o%20colaboraciones."><i class="bi bi-envelope"></i></a>-->
                   <a href="https://api.whatsapp.com/send?phone=51989796616"><i class="bi bi-whatsapp"></i></a>
                   <a href="https://www.linkedin.com/in/carlos-eduardo-medina-lezama-2bba4b222/"><i class="bi bi-linkedin"></i></a>
                   <a href="https://github.com/Carlos-Eduardo-17"><i class="bi bi-github"></i></a>
@@ -850,6 +831,18 @@
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <script>
+  // correo codificado en base64: "carlos.1710.ml@gmail.com"
+  const encoded = "Y2FybG9zLjE3MTAubWxAZ21haWwuY29t";
+  document.getElementById("mailLink").addEventListener("click", function (e) {
+    console.log("encode", e)
+    e.preventDefault();
+    const email = atob(encoded); // decodifica Base64
+    console.log("email",email)
+    window.location.href = "mailto:" + email;
+  });
+  </script>
 
 </body>
 </html>
