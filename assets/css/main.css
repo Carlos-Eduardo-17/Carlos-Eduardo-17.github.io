@@ -89,6 +89,15 @@ body {
   font-family: var(--default-font);
 }
 
+.dark-mode {
+  --background-color: #1f1f1f;
+  --default-color: #ffffff;
+  --heading-color: #ffffff;
+  --accent-color: #ececec;
+  --surface-color: #232323;
+  --contrast-color: #310606;
+}
+
 a {
   color: var(--accent-color);
   text-decoration: none;
