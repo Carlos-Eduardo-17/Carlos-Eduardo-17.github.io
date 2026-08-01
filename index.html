@@ -89,8 +89,9 @@
 
                 <div class="hero-actions">
                   <a href="https://drive.google.com/file/d/1hhM_ZaEZGGZk-S214XXSkBQl9eXvE5uV/view?usp=sharing"
-                    target="_blank" rel="noopener noreferrer" class="btn btn-primary">Ver mi CV</a>
-                  <a href="#contact" class="btn btn-outline">Contactarme</a>
+                    target="_blank" rel="noopener noreferrer" class="btn btn-primary"><i class="bi bi-download"></i> Ver
+                    mi CV</a>
+                  <a href="#contact" class="btn btn-outline"><i class="bi bi-chat-dots"></i> Contactarme</a>
                 </div>
 
                 <div class="social-links">
@@ -108,14 +109,14 @@
               </div>
             </div>
 
-            <div class="col-lg-6" data-aos="fade-left" data-aos-delay="200">
+            <!--div class="col-lg-6" data-aos="fade-left" data-aos-delay="200">
               <div class="hero-visual">
                 <div class="profile-container">
                   <div class="profile-background"></div>
                   <img src="assets/img/profile/profile-2.webp" alt="Alexander Chen" class="profile-image">
                 </div>
               </div>
-            </div>
+            </div-->
 
           </div>
         </div>
@@ -128,7 +129,7 @@
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
         <div class="row">
-          <div class="col-lg-5" data-aos="zoom-in" data-aos-delay="200">
+          <!--div class="col-lg-5" data-aos="zoom-in" data-aos-delay="200">
             <div class="profile-card">
               <div class="profile-header">
                 <div class="profile-image">
@@ -164,7 +165,7 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div-->
 
           <div class="col-lg-7" data-aos="fade-left" data-aos-delay="300">
             <div class="about-content">
@@ -203,7 +204,7 @@
                 </div>
               </div>
 
-              <div class="cta-section">
+              <!--div class="cta-section">
                 <a href="https://drive.google.com/file/d/1hhM_ZaEZGGZk-S214XXSkBQl9eXvE5uV/view?usp=sharing"
                   target="_blank" rel="noopener noreferrer" class="btn btn-primary">
                   <i class="bi bi-download"></i>
@@ -214,7 +215,7 @@
                   <i class="bi bi-chat-dots"></i>
                   Conversemos
                 </a>
-              </div>
+              </div-->
             </div>
           </div>
         </div>
@@ -417,6 +418,13 @@
                 <li><i class="bi bi-phone"></i> +51 989 796 616</li>
               </ul>
 
+              <div class="hero-actions">
+                <a href="https://drive.google.com/file/d/1hhM_ZaEZGGZk-S214XXSkBQl9eXvE5uV/view?usp=sharing"
+                  target="_blank" rel="noopener noreferrer" class="btn btn-primary"><i class="bi bi-download"></i>
+                  Descargar CV
+                </a>
+              </div>
+
             </div>
           </div>
 
@@ -497,6 +505,80 @@
       </div>
     </section><!-- /Resume Section -->
 
+
+
+    <!-- Portafolio Section -->
+
+    <!-- Skills Section -->
+    <section id="portafolio" class="skills section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Portafolio</h2>
+        <p>Proyectos demostrativos de mi trabajo</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="skills-category" data-aos="fade-up" data-aos-delay="200">
+              <h3>MVP de E-commerce de Amigurumis y Crochet</h3>
+              <p>Enlace a la página web: <a href="https://amigurumi-crochet.vercel.app/" target="_blank"
+                  rel="noopener noreferrer">https://amigurumi-crochet.vercel.app/</a></p>
+              <div class="skills-animation">
+                <div class="skill-item">
+                  <div class="d-flex justify-content-between align-items-center">
+                    <img src="assets/img/web/catalog.png" class="img-fluid"
+                      alt="MVP de Ecommerce de Amigurumis y Crochet - Carlos Eduardo Medina Lezama" loading="lazy">
+                  </div>
+
+                  <div class="skill-tooltip">Pretende demostrar buenas prácticas de arquitectura backend: separación
+                    estricta por capas (routes → controllers → services → repositories), seguridad de autenticación con
+                    JWT en cookies httpOnly, validación estricta de inputs, rate limiting y headers seguros con helmet.
+                  </div>
+                  
+                </div>
+              </div>
+            </div><!-- End Frontend Skills -->
+          </div>
+
+          <div class="col-lg-6">
+            <div class="skills-category" data-aos="fade-up" data-aos-delay="300">
+              <h3>Próximamente</h3>
+              <div class="skills-animation">
+                <div class="skill-item">
+                  <div class="d-flex justify-content-between align-items-center">
+                    <h4>Google OAuth</h4>
+                  </div>                  
+                  <h7>Inicio de sesión usando credenciales de Google.</h7>
+                </div>
+
+                <div class="skill-item">
+                  <div class="d-flex justify-content-between align-items-center">
+                    <h4>NodeMailer</h4>                    
+                  </div>                  
+                  <h7>Envío de correos electrónicos automatizados.</h7>
+                </div>
+
+                <div class="skill-item">
+                  <div class="d-flex justify-content-between align-items-center">
+                    <h4>Stripe</h4>
+                  </div>                  
+                  <h7>Integración de pagos en aplicaciones web.</h7>
+                </div>
+                
+              </div>
+            </div><!-- End Backend Skills -->
+          </div>
+        </div>
+      </div>
+    </section><!-- /Skills Section -->
+
+    <!-- Fin Portafolio Section -->
+
+
+
     <!-- Portfolio Section -->
     <section id="portfolio" class="portfolio section">
 
@@ -519,6 +601,7 @@
                   <li data-filter=".filter-vsc">Configuración y entornos de trabajo</li>
                   <li data-filter=".filter-git">Control de Versiones y Herramientas de Desarrollo</li>
                   <li data-filter=".filter-soft">Desarrollo de Software y Programación</li>
+                  <li data-filter=".filter-ia">IA</li>
                   <li data-filter=".filter-hbcd">Habilidades Blandas y Competencias Digitales</li>
                   <li data-filter=".filter-ofit">Ofimática y Productividad</li>
                 </ul>
@@ -706,6 +789,14 @@
                   </div>
                 </div><!-- End Portfolio Item -->
 
+                <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-ia">
+                  <div class="portfolio-wrap">
+                    <img src="assets/img/portfolio/Certificado - IA - Iniciación al desarrollo con IA.png"
+                      class="img-fluid" alt="Iniciación al desarrollo con IA - Carlos Eduardo Medina Lezama"
+                      loading="lazy">
+                  </div>
+                </div><!-- End Portfolio Item -->
+
                 <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-hbcd">
                   <div class="portfolio-wrap">
                     <img src="assets/img/portfolio/Certificado - ABC Digital - MTPE.png" class="img-fluid"
@@ -821,7 +912,7 @@
                 </div>
               </div>
 
-              <div class="info-item">
+              <!--div class="info-item">
                 <div class="icon-box">
                   <i class="bi bi-telephone"></i>
                 </div>
@@ -829,7 +920,7 @@
                   <h4>Teléfono Personal</h4>
                   <p>+51 989 796 616</p>
                 </div>
-              </div>
+              </div-->
 
               <div class="info-item">
                 <div class="icon-box">
